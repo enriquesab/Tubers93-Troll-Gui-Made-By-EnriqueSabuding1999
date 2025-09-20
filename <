@@ -1,0 +1,827 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Main = Instance.new("ScreenGui")
+local MainFrame = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Tubers93 = Instance.new("TextLabel")
+local WalkspeedTo60 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local WalkspeedTo9 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local InfinteJump = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Charms = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local BoxEsp = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local FeJerkOff = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Entering = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local LostFrightenedConfused = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "Main Frame"
+MainFrame.Parent = Main
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.234197736, 0, 0.175182387, 0)
+MainFrame.Size = UDim2.new(0, 598, 0, 426)
+MainFrame.Image = "rbxassetid://7447690378"
+MainFrame.ImageTransparency = 0.290
+
+UICorner.Parent = MainFrame
+
+Fly.Name = "Fly "
+Fly.Parent = MainFrame
+Fly.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Fly.BackgroundTransparency = 0.700
+Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0, 0, 0.0868544579, 0)
+Fly.Size = UDim2.new(0, 114, 0, 82)
+Fly.Font = Enum.Font.SourceSansBold
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(255, 0, 0)
+Fly.TextSize = 23.000
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = Fly
+
+Tubers93.Name = "Tubers93"
+Tubers93.Parent = MainFrame
+Tubers93.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tubers93.BackgroundTransparency = 1.000
+Tubers93.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tubers93.BorderSizePixel = 0
+Tubers93.Position = UDim2.new(0.332775921, 0, 0, 0)
+Tubers93.Size = UDim2.new(0, 200, 0, 50)
+Tubers93.Font = Enum.Font.SourceSansBold
+Tubers93.Text = "Tubers93"
+Tubers93.TextColor3 = Color3.fromRGB(255, 0, 0)
+Tubers93.TextSize = 46.000
+
+WalkspeedTo60.Name = "Walkspeed To 60"
+WalkspeedTo60.Parent = MainFrame
+WalkspeedTo60.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WalkspeedTo60.BackgroundTransparency = 0.700
+WalkspeedTo60.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkspeedTo60.BorderSizePixel = 0
+WalkspeedTo60.Position = UDim2.new(0, 0, 0.302816898, 0)
+WalkspeedTo60.Size = UDim2.new(0, 114, 0, 82)
+WalkspeedTo60.Font = Enum.Font.SourceSansBold
+WalkspeedTo60.Text = "Walkspeed To 60"
+WalkspeedTo60.TextColor3 = Color3.fromRGB(255, 0, 0)
+WalkspeedTo60.TextSize = 23.000
+
+UICorner_3.CornerRadius = UDim.new(1, 0)
+UICorner_3.Parent = WalkspeedTo60
+
+WalkspeedTo9.Name = "Walkspeed To 9"
+WalkspeedTo9.Parent = MainFrame
+WalkspeedTo9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+WalkspeedTo9.BackgroundTransparency = 0.700
+WalkspeedTo9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkspeedTo9.BorderSizePixel = 0
+WalkspeedTo9.Position = UDim2.new(0, 0, 0.518779337, 0)
+WalkspeedTo9.Size = UDim2.new(0, 114, 0, 82)
+WalkspeedTo9.Font = Enum.Font.SourceSansBold
+WalkspeedTo9.Text = "Walkspeed To 9"
+WalkspeedTo9.TextColor3 = Color3.fromRGB(255, 0, 0)
+WalkspeedTo9.TextSize = 23.000
+
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = WalkspeedTo9
+
+InfinteJump.Name = "InfinteJump"
+InfinteJump.Parent = MainFrame
+InfinteJump.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+InfinteJump.BackgroundTransparency = 0.700
+InfinteJump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfinteJump.BorderSizePixel = 0
+InfinteJump.Position = UDim2.new(0, 0, 0.737089217, 0)
+InfinteJump.Size = UDim2.new(0, 114, 0, 82)
+InfinteJump.Font = Enum.Font.SourceSansBold
+InfinteJump.Text = "InfinteJump"
+InfinteJump.TextColor3 = Color3.fromRGB(255, 0, 0)
+InfinteJump.TextSize = 23.000
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = InfinteJump
+
+Noclip.Name = "Noclip"
+Noclip.Parent = MainFrame
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Noclip.BackgroundTransparency = 0.700
+Noclip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.BorderSizePixel = 0
+Noclip.Position = UDim2.new(0.207357854, 0, 0.0868544579, 0)
+Noclip.Size = UDim2.new(0, 114, 0, 82)
+Noclip.Font = Enum.Font.SourceSansBold
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(255, 0, 0)
+Noclip.TextSize = 23.000
+
+UICorner_6.CornerRadius = UDim.new(1, 0)
+UICorner_6.Parent = Noclip
+
+Charms.Name = "Charms"
+Charms.Parent = MainFrame
+Charms.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Charms.BackgroundTransparency = 0.700
+Charms.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Charms.BorderSizePixel = 0
+Charms.Position = UDim2.new(0.207357854, 0, 0.302816898, 0)
+Charms.Size = UDim2.new(0, 114, 0, 82)
+Charms.Font = Enum.Font.SourceSansBold
+Charms.Text = "Charms"
+Charms.TextColor3 = Color3.fromRGB(255, 0, 0)
+Charms.TextSize = 23.000
+
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = Charms
+
+BoxEsp.Name = "BoxEsp"
+BoxEsp.Parent = MainFrame
+BoxEsp.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+BoxEsp.BackgroundTransparency = 0.700
+BoxEsp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BoxEsp.BorderSizePixel = 0
+BoxEsp.Position = UDim2.new(0.207357854, 0, 0.518779337, 0)
+BoxEsp.Size = UDim2.new(0, 114, 0, 82)
+BoxEsp.Font = Enum.Font.SourceSansBold
+BoxEsp.Text = "BoxEsp"
+BoxEsp.TextColor3 = Color3.fromRGB(255, 0, 0)
+BoxEsp.TextSize = 23.000
+
+UICorner_8.CornerRadius = UDim.new(1, 0)
+UICorner_8.Parent = BoxEsp
+
+FeJerkOff.Name = "Fe Jerk Off"
+FeJerkOff.Parent = MainFrame
+FeJerkOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FeJerkOff.BackgroundTransparency = 0.700
+FeJerkOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FeJerkOff.BorderSizePixel = 0
+FeJerkOff.Position = UDim2.new(0.207357854, 0, 0.737089217, 0)
+FeJerkOff.Size = UDim2.new(0, 114, 0, 82)
+FeJerkOff.Font = Enum.Font.SourceSansBold
+FeJerkOff.Text = "Fe Jerk Off"
+FeJerkOff.TextColor3 = Color3.fromRGB(255, 0, 0)
+FeJerkOff.TextSize = 23.000
+
+UICorner_9.CornerRadius = UDim.new(1, 0)
+UICorner_9.Parent = FeJerkOff
+
+Entering.Name = "Entering"
+Entering.Parent = MainFrame
+Entering.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Entering.BackgroundTransparency = 0.700
+Entering.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Entering.BorderSizePixel = 0
+Entering.Position = UDim2.new(0.404682279, 0, 0.737089217, 0)
+Entering.Size = UDim2.new(0, 114, 0, 82)
+Entering.Font = Enum.Font.SourceSansBold
+Entering.Text = "Tubers93 Music"
+Entering.TextColor3 = Color3.fromRGB(255, 0, 0)
+Entering.TextSize = 23.000
+
+UICorner_10.CornerRadius = UDim.new(1, 0)
+UICorner_10.Parent = Entering
+
+LostFrightenedConfused.Name = "Lost Frightened Confused"
+LostFrightenedConfused.Parent = MainFrame
+LostFrightenedConfused.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+LostFrightenedConfused.BackgroundTransparency = 0.700
+LostFrightenedConfused.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LostFrightenedConfused.BorderSizePixel = 0
+LostFrightenedConfused.Position = UDim2.new(0.397993296, 0, 0.518779337, 0)
+LostFrightenedConfused.Size = UDim2.new(0, 114, 0, 82)
+LostFrightenedConfused.Font = Enum.Font.SourceSansBold
+LostFrightenedConfused.Text = "Lost Frightened Confused"
+LostFrightenedConfused.TextColor3 = Color3.fromRGB(255, 0, 0)
+LostFrightenedConfused.TextSize = 12.000
+
+UICorner_11.CornerRadius = UDim.new(1, 0)
+UICorner_11.Parent = LostFrightenedConfused
+
+-- Scripts:
+
+local function IEFS_fake_script() -- Fly.Script 
+	local script = Instance.new('LocalScript', Fly)
+
+	local button = script.Parent
+	local flying = false
+	local player = game.Players.LocalPlayer
+	local UIS = game:GetService("UserInputService")
+	local runService = game:GetService("RunService")
+	
+	local bodyVelocity = nil
+	local connection = nil
+	local charConn = nil
+	
+	local function applyBodyVelocity()
+	    local character = player.Character or player.CharacterAdded:Wait()
+	    local hrp = character:FindFirstChild("HumanoidRootPart")
+	    if not hrp then return end
+	
+	    if bodyVelocity then
+	        bodyVelocity:Destroy()
+	        bodyVelocity = nil
+	    end
+	
+	    bodyVelocity = Instance.new("BodyVelocity")
+	    bodyVelocity.MaxForce = Vector3.new(1e5, 1e5, 1e5)
+	    bodyVelocity.Velocity = Vector3.new(0,0,0)
+	    bodyVelocity.Parent = hrp
+	end
+	
+	local function startFlying()
+	    applyBodyVelocity()
+	
+	    if connection then
+	        connection:Disconnect()
+	        connection = nil
+	    end
+	
+	    connection = runService.RenderStepped:Connect(function()
+	        local moveDirection = Vector3.new()
+	        if UIS:IsKeyDown(Enum.KeyCode.W) then
+	            moveDirection = moveDirection + workspace.CurrentCamera.CFrame.LookVector
+	        end
+	        if UIS:IsKeyDown(Enum.KeyCode.S) then
+	            moveDirection = moveDirection - workspace.CurrentCamera.CFrame.LookVector
+	        end
+	        if UIS:IsKeyDown(Enum.KeyCode.A) then
+	            moveDirection = moveDirection - workspace.CurrentCamera.CFrame.RightVector
+	        end
+	        if UIS:IsKeyDown(Enum.KeyCode.D) then
+	            moveDirection = moveDirection + workspace.CurrentCamera.CFrame.RightVector
+	        end
+	        if UIS:IsKeyDown(Enum.KeyCode.Space) then
+	            moveDirection = moveDirection + Vector3.new(0,1,0)
+	        end
+	        if UIS:IsKeyDown(Enum.KeyCode.LeftControl) then
+	            moveDirection = moveDirection - Vector3.new(0,1,0)
+	        end
+	
+	        if bodyVelocity then
+	            if moveDirection.Magnitude > 0 then
+	                bodyVelocity.Velocity = moveDirection.Unit * 50
+	            else
+	                bodyVelocity.Velocity = Vector3.new(0,0,0)
+	            end
+	        end
+	    end)
+	
+	    if charConn then
+	        charConn:Disconnect()
+	        charConn = nil
+	    end
+	
+	    charConn = player.CharacterAdded:Connect(function()
+	        if flying then
+	            task.wait(0.1)
+	            applyBodyVelocity()
+	        end
+	    end)
+	end
+	
+	local function stopFlying()
+	    if bodyVelocity then
+	        bodyVelocity:Destroy()
+	        bodyVelocity = nil
+	    end
+	    if connection then
+	        connection:Disconnect()
+	        connection = nil
+	    end
+	    if charConn then
+	        charConn:Disconnect()
+	        charConn = nil
+	    end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    flying = not flying
+	    if flying then
+	        startFlying()
+	        button.Text = "Stop Flying"
+	    else
+	        stopFlying()
+	        button.Text = "Fly"
+	    end
+	end)
+	
+	button.Text = "Fly"
+	
+	
+end
+coroutine.wrap(IEFS_fake_script)()
+local function NSBCXZO_fake_script() -- WalkspeedTo60.Script 
+	local script = Instance.new('LocalScript', WalkspeedTo60)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local enabled = false
+	local conn = nil
+	local charConn = nil
+	local WALKSPEED = 60
+	local DEFAULT_WALKSPEED = 16
+	
+	local function setWalkspeed(character, speed)
+	    local humanoid = character:FindFirstChildOfClass("Humanoid")
+	    if humanoid then
+	        humanoid.WalkSpeed = speed
+	    end
+	end
+	
+	local function startLoop()
+	    local character = player.Character or player.CharacterAdded:Wait()
+	    if conn then conn:Disconnect() end
+	    conn = game:GetService("RunService").RenderStepped:Connect(function()
+	        setWalkspeed(character, WALKSPEED)
+	    end)
+	    setWalkspeed(character, WALKSPEED)
+	    if charConn then charConn:Disconnect() end
+	    charConn = player.CharacterAdded:Connect(function(char)
+	        if conn then conn:Disconnect() end
+	        conn = game:GetService("RunService").RenderStepped:Connect(function()
+	            setWalkspeed(char, WALKSPEED)
+	        end)
+	        setWalkspeed(char, WALKSPEED)
+	    end)
+	end
+	
+	local function stopLoop()
+	    if conn then conn:Disconnect() conn = nil end
+	    if charConn then charConn:Disconnect() charConn = nil end
+	    local character = player.Character
+	    if character then
+	        setWalkspeed(character, DEFAULT_WALKSPEED)
+	    end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    enabled = not enabled
+	    if enabled then
+	        startLoop()
+	        button.Text = "Walkspeed 60 ON"
+	    else
+	        stopLoop()
+	        button.Text = "Walkspeed 60"
+	    end
+	end)
+	
+	button.Text = "Walkspeed 60"
+	
+	
+end
+coroutine.wrap(NSBCXZO_fake_script)()
+local function HZTC_fake_script() -- WalkspeedTo9.Script 
+	local script = Instance.new('LocalScript', WalkspeedTo9)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local enabled = false
+	local conn = nil
+	local charConn = nil
+	local WALKSPEED = 9
+	local DEFAULT_WALKSPEED = 16
+	
+	local function setWalkspeed(character, speed)
+	    local humanoid = character:FindFirstChildOfClass("Humanoid")
+	    if humanoid then
+	        humanoid.WalkSpeed = speed
+	    end
+	end
+	
+	local function startLoop()
+	    local character = player.Character or player.CharacterAdded:Wait()
+	    if conn then conn:Disconnect() end
+	    conn = game:GetService("RunService").RenderStepped:Connect(function()
+	        setWalkspeed(character, WALKSPEED)
+	    end)
+	    setWalkspeed(character, WALKSPEED)
+	    if charConn then charConn:Disconnect() end
+	    charConn = player.CharacterAdded:Connect(function(char)
+	        if conn then conn:Disconnect() end
+	        conn = game:GetService("RunService").RenderStepped:Connect(function()
+	            setWalkspeed(char, WALKSPEED)
+	        end)
+	        setWalkspeed(char, WALKSPEED)
+	    end)
+	end
+	
+	local function stopLoop()
+	    if conn then conn:Disconnect() conn = nil end
+	    if charConn then charConn:Disconnect() charConn = nil end
+	    local character = player.Character
+	    if character then
+	        setWalkspeed(character, DEFAULT_WALKSPEED)
+	    end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    enabled = not enabled
+	    if enabled then
+	        startLoop()
+	        button.Text = "Walkspeed 9 ON"
+	    else
+	        stopLoop()
+	        button.Text = "Walkspeed 9"
+	    end
+	end)
+	
+	button.Text = "Walkspeed 9"
+	
+	
+end
+coroutine.wrap(HZTC_fake_script)()
+local function BGDTZ_fake_script() -- InfinteJump.InfiniteJumpToggle 
+	local script = Instance.new('LocalScript', InfinteJump)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local enabled = false
+	local conn = nil
+	
+	local function onJumpRequest()
+	    local character = player.Character
+	    if character then
+	        local humanoid = character:FindFirstChildOfClass("Humanoid")
+	        if humanoid then
+	            humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+	        end
+	    end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    enabled = not enabled
+	    if enabled then
+	        if conn then
+	            conn:Disconnect()
+	        end
+	        conn = game:GetService("UserInputService").JumpRequest:Connect(onJumpRequest)
+	        button.Text = "InfiniteJump ON"
+	    else
+	        if conn then
+	            conn:Disconnect()
+	            conn = nil
+	        end
+	        button.Text = "InfiniteJump"
+	    end
+	end)
+	
+	button.Text = "InfiniteJump"
+	
+	
+end
+coroutine.wrap(BGDTZ_fake_script)()
+local function UTJV_fake_script() -- Noclip.NoclipToggle 
+	local script = Instance.new('LocalScript', Noclip)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local noclipEnabled = false
+	local conn = nil
+	local charConn = nil
+	
+	local function setNoclip(character, enabled)
+	    for _, part in character:GetChildren() do
+	        if part:IsA("BasePart") then
+	            part.CanCollide = not enabled and true or false
+	        end
+	    end
+	end
+	
+	local function enableNoclip()
+	    local character = player.Character or player.CharacterAdded:Wait()
+	    setNoclip(character, true)
+	    if conn then conn:Disconnect() end
+	    conn = game:GetService("RunService").Stepped:Connect(function()
+	        local character = player.Character
+	        if character then
+	            setNoclip(character, true)
+	        end
+	    end)
+	    if charConn then charConn:Disconnect() end
+	    charConn = player.CharacterAdded:Connect(function(char)
+	        task.wait(0.1)
+	        setNoclip(char, true)
+	    end)
+	end
+	
+	local function disableNoclip()
+	    if conn then conn:Disconnect() conn = nil end
+	    if charConn then charConn:Disconnect() charConn = nil end
+	    local character = player.Character
+	    if character then
+	        setNoclip(character, false)
+	    end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    noclipEnabled = not noclipEnabled
+	    if noclipEnabled then
+	        enableNoclip()
+	        button.Text = "Noclip ON"
+	    else
+	        disableNoclip()
+	        button.Text = "Noclip"
+	    end
+	end)
+	
+	button.Text = "Noclip"
+	
+	
+end
+coroutine.wrap(UTJV_fake_script)()
+local function XLNA_fake_script() -- Charms.CharmsToggle 
+	local script = Instance.new('LocalScript', Charms)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local charmsEnabled = false
+	local charConn = nil
+	
+	local function addCharms(character)
+	    if not character:FindFirstChild("CharmsEffect") then
+	        local sparkles = Instance.new("ParticleEmitter")
+	        sparkles.Name = "CharmsEffect"
+	        sparkles.Texture = "rbxassetid://243098098" -- Example sparkle texture
+	        sparkles.Rate = 10
+	        sparkles.Lifetime = NumberRange.new(1,2)
+	        sparkles.Speed = NumberRange.new(0,0)
+	        sparkles.Parent = character:FindFirstChild("HumanoidRootPart") or character:FindFirstChildWhichIsA("BasePart")
+	    end
+	end
+	
+	local function removeCharms(character)
+	    local hrp = character:FindFirstChild("HumanoidRootPart") or character:FindFirstChildWhichIsA("BasePart")
+	    if hrp then
+	        local effect = hrp:FindFirstChild("CharmsEffect")
+	        if effect then
+	            effect:Destroy()
+	        end
+	    end
+	end
+	
+	local function enableCharms()
+	    local character = player.Character or player.CharacterAdded:Wait()
+	    addCharms(character)
+	    if charConn then charConn:Disconnect() end
+	    charConn = player.CharacterAdded:Connect(function(char)
+	        task.wait(0.1)
+	        addCharms(char)
+	    end)
+	end
+	
+	local function disableCharms()
+	    if charConn then charConn:Disconnect() charConn = nil end
+	    local character = player.Character
+	    if character then
+	        removeCharms(character)
+	    end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    charmsEnabled = not charmsEnabled
+	    if charmsEnabled then
+	        enableCharms()
+	        button.Text = "Charms ON"
+	    else
+	        disableCharms()
+	        button.Text = "Charms"
+	    end
+	end)
+	
+	button.Text = "Charms"
+	
+	
+end
+coroutine.wrap(XLNA_fake_script)()
+local function UYYU_fake_script() -- BoxEsp.BoxEspToggle 
+	local script = Instance.new('LocalScript', BoxEsp)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local espEnabled = false
+	local adornments = {}
+	
+	local function createEspForCharacter(character)
+	    local hrp = character:FindFirstChild("HumanoidRootPart")
+	    if hrp and not adornments[hrp] then
+	        local adorn = Instance.new("BoxHandleAdornment")
+	        adorn.Size = hrp.Size + Vector3.new(0.5, 0.5, 0.5)
+	        adorn.Adornee = hrp
+	        adorn.Color3 = Color3.new(1, 0, 0)
+	        adorn.Transparency = 0.5
+	        adorn.AlwaysOnTop = true
+	        adorn.ZIndex = 10
+	        adorn.Parent = hrp
+	        adornments[hrp] = adorn
+	    end
+	end
+	
+	local function removeEsp()
+	    for hrp, adorn in adornments do
+	        if adorn then
+	            adorn:Destroy()
+	        end
+	    end
+	    adornments = {}
+	end
+	
+	local function applyEsp()
+	    for _, plr in game.Players:GetPlayers() do
+	        if plr ~= player and plr.Character then
+	            createEspForCharacter(plr.Character)
+	        end
+	    end
+	end
+	
+	local function onCharacterAdded(character)
+	    if espEnabled then
+	        createEspForCharacter(character)
+	    end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    espEnabled = not espEnabled
+	    if espEnabled then
+	        applyEsp()
+	        button.Text = "BoxEsp ON"
+	        for _, plr in game.Players:GetPlayers() do
+	            plr.CharacterAdded:Connect(onCharacterAdded)
+	        end
+	    else
+	        removeEsp()
+	        button.Text = "BoxEsp"
+	    end
+	end)
+	
+	button.Text = "BoxEsp"
+	
+	
+end
+coroutine.wrap(UYYU_fake_script)()
+local function TQZR_fake_script() -- FeJerkOff.Script 
+	local script = Instance.new('LocalScript', FeJerkOff)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Sakupenny/Universal-Jerk-Off/refs/heads/main/Main.lua"))()
+	end)
+	
+	
+end
+coroutine.wrap(TQZR_fake_script)()
+local function NBSKTLV_fake_script() -- MainFrame.DragScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(NBSKTLV_fake_script)()
+local function BAMUPL_fake_script() -- Entering.Tubers93 Music 
+	local script = Instance.new('LocalScript', Entering)
+
+	local button = script.Parent
+	local enabled = false
+	local sound = nil
+	local SOUND_ID = "rbxassetid://107706517765020"
+	
+	button.MouseButton1Click:Connect(function()
+	    enabled = not enabled
+	    if enabled then
+	        if sound then
+	            sound:Destroy()
+	            sound = nil
+	        end
+	        sound = Instance.new("Sound")
+	        sound.SoundId = SOUND_ID
+	        sound.Volume = 1
+	        sound.Parent = game:GetService("StarterGui")
+	        sound:Play()
+	        button.Text = "Tubers93 Music ON"
+	        sound.Ended:Connect(function()
+	            enabled = false
+	            button.Text = "Tubers93 Music"
+	            if sound then
+	                sound:Destroy()
+	                sound = nil
+	            end
+	        end)
+	    else
+	        if sound then
+	            sound:Stop()
+	            sound:Destroy()
+	            sound = nil
+	        end
+	        button.Text = "Tubers93 Music"
+	    end
+	end)
+	
+	button.Text = "Tubers93 Music"
+	
+	
+end
+coroutine.wrap(BAMUPL_fake_script)()
+local function LYDQCI_fake_script() -- LostFrightenedConfused.Tubers93 Music 
+	local script = Instance.new('LocalScript', LostFrightenedConfused)
+
+	local button = script.Parent
+	local enabled = false
+	local sound = nil
+	local SOUND_ID = "rbxassetid://80776947525537"
+	
+	button.MouseButton1Click:Connect(function()
+	    enabled = not enabled
+	    if enabled then
+	        if sound then
+	            sound:Destroy()
+	            sound = nil
+	        end
+	        sound = Instance.new("Sound")
+	        sound.SoundId = SOUND_ID
+	        sound.Volume = 100
+	        sound.Parent = game:GetService("StarterGui")
+	        sound:Play()
+			button.Text = "Lost Frightened Confused ON"
+	        sound.Ended:Connect(function()
+	            enabled = false
+				button.Text = "Lost Frightened Confused"
+	            if sound then
+	                sound:Destroy()
+	                sound = nil
+	            end
+	        end)
+	    else
+	        if sound then
+	            sound:Stop()
+	            sound:Destroy()
+	            sound = nil
+	        end
+			button.Text = "Lost Frightened Confused"
+	    end
+	end)
+	
+	button.Text = "Lost Frightened Confused"
+	
+	
+end
+coroutine.wrap(LYDQCI_fake_script)()
